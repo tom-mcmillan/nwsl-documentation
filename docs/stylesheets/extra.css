@@ -1,0 +1,37 @@
+/* NWSL Data Brand Colors */
+:root {
+  --nwsl-blue: #3B82F6;
+  --nwsl-dark: #1e293b;
+  --nwsl-light: #f8fafc;
+}
+
+/* White header with clean styling */
+.md-header {
+  background-color: white;
+  color: var(--nwsl-dark);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Ensure text in header is dark for contrast */
+.md-header__title {
+  color: var(--nwsl-dark);
+}
+
+.md-header__topic {
+  color: var(--nwsl-dark);
+}
+
+/* Style search to work with white background */
+.md-search__input {
+  background-color: #f5f5f5;
+  color: var(--nwsl-dark);
+}
+
+.md-search__input::placeholder {
+  color: #666;
+}
+
+/* GitHub icon in header */
+.md-header__source {
+  color: var(--nwsl-dark);
+}
