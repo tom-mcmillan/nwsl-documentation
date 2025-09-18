@@ -108,8 +108,13 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Home: index.md
-  - Over/Under Goals Prediction: over-under-goals-prediction.md
-  - Test Research: test-research.md
+  - Intro: index.md
+  - Database: database.md
+  - ChatGPT: chatgpt.md
+  - Claude: claude.md
+  - Colab Notebook: colab-notebook.md
+  - MCP: mcp.md
+  - API: api.md
+  - Community: community.md
 
 copyright: Copyright &copy; 2024 NWSL Data
