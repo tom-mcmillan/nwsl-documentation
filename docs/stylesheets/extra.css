@@ -15,6 +15,7 @@
 /* Ensure text in header is dark for contrast */
 .md-header__title {
   color: var(--nwsl-dark);
+  font-weight: normal;
 }
 
 .md-header__topic {
