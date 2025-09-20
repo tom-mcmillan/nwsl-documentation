@@ -1,8 +1,8 @@
-# Database
+# Database Overview
 
 The NWSL database contains comprehensive match data from the National Women's Soccer League, processed from OPTA Sports feeds and structured for analytics.
 
-## Database Overview
+
 
 ### Architecture
 - **Platform**: PostgreSQL 17 on Google Cloud SQL
@@ -175,7 +175,7 @@ import pandas as pd
 
 # Read-only connection
 conn = psycopg2.connect(
-    host="34.72.26.89",
+    host="[contact for host]",
     port="5432",
     database="nwsl",
     user="notebookuser",

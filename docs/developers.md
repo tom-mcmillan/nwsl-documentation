@@ -131,7 +131,7 @@ const data = await client.query("SELECT COUNT(*) FROM events_2025");
 ## Direct Database Access
 
 ### Connection Details
-- **Host**: `34.72.26.89`
+- **Host**: Contact for database host details
 - **Port**: `5432`
 - **Database**: `nwsl`
 - **SSL Mode**: `prefer`
@@ -142,7 +142,7 @@ import psycopg2
 import pandas as pd
 
 conn = psycopg2.connect(
-    host="34.72.26.89",
+    host="[contact for host]",
     port="5432",
     database="nwsl",
     user="notebookuser",  # Contact for credentials
