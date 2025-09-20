@@ -1,42 +1,43 @@
-# NWSL Data Platform
+# NWSL Data
 
-The NWSL Data Platform provides comprehensive access to National Women's Soccer League analytics through multiple interfaces designed for different user needs.
+**Comprehensive soccer analytics for the National Women's Soccer League**
 
-## What This Platform Offers
+NWSL Data provides easy access to detailed match data, player statistics, and advanced analytics for everyone interested in the NWSL - from casual fans to professional analysts.
 
-### For Research Consumers
-- **Published Research**: Analysis and insights at [research.nwsldata.com](https://research.nwsldata.com)
-- **AI Assistant**: Natural language queries through our custom ChatGPT integration
-- **Interactive Analysis**: Direct access to data through guided notebooks
+## What's Available
 
-### For Technical Users
-- **Complete Database**: 558K+ events from 1,092 matches (2013-2025)
-- **Direct SQL Access**: Query the full PostgreSQL database
-- **Advanced Analytics**: Expected goals, VAEP scores, spatial analysis
-- **Python Integration**: Jupyter notebooks with soccer-specific libraries
+- **1,092 matches** from 2013-2025 with complete event data
+- **770 unique players** with detailed performance metrics
+- **558K match events** with spatial coordinates and context
+- **Advanced analytics** including Expected Goals (xG), formations, and tactical analysis
 
-## Platform Architecture
+## How to Access
 
-The platform consists of four integrated layers:
+Whether you want quick answers or deep analysis, there's an option for you:
 
-1. **Database**: PostgreSQL with complete OPTA match data
-2. **API**: RESTful interface for SQL queries and analytics
-3. **MCP Server**: AI-powered analytics through Claude integration
-4. **Web Interface**: Three access methods for different use cases
+- **🤖 AI Chat** - Ask questions in plain English (ChatGPT, Claude)
+- **🌐 Web App** - Interactive visualizations and charts
+- **📓 Notebooks** - Run your own analysis (Jupyter, Colab)
+- **⚡ API** - Integrate with your applications
+- **🗄️ Database** - Direct SQL access for data scientists
 
-## Data Coverage
+## Who Uses NWSL Data
 
-- **Matches**: 1,092 complete matches processed
-- **Events**: 558K+ individual match events with coordinates
-- **Players**: 770+ unique player profiles
-- **Venues**: 39 stadium locations
-- **Seasons**: 2013-2025 (updated regularly)
+**Players & Coaches** analyze performance and tactical patterns
 
-## Getting Started
+**Fans** explore team history and player comparisons
 
-Choose your access method based on your needs:
+**Analysts & Researchers** build models and discover insights
 
-- **New to NWSL data?** → Start with [ChatGPT](chatgpt.md)
-- **Want to analyze data?** → Use [Colab Notebook](colab-notebook.md)
-- **Building applications?** → See [API](api.md) documentation
-- **Using Claude?** → Configure [MCP](mcp.md) integration
+**Developers** integrate soccer data into applications
+
+**Media & Business** create compelling content and understand market trends
+
+## Get Started
+
+Ready to explore NWSL data?
+
+**→ [Choose your access method](getting-started.md)**
+
+Or see **[specific examples](use-cases.md)** for your use case.
+

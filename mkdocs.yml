@@ -111,12 +111,9 @@ extra_javascript:
 
 nav:
   - Intro: index.md
-  - Database: database.md
-  - ChatGPT: chatgpt.md
-  - Claude: claude.md
-  - Colab Notebook: colab-notebook.md
-  - MCP: mcp.md
-  - API: api.md
-  - Community: community.md
+  - Architecture: architecture.md
+  - Getting Started: getting-started.md
+  - Use Cases: use-cases.md
+  - Developers: developers.md
 
 copyright: Copyright &copy; 2024 NWSL Data
