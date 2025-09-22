@@ -1,4 +1,4 @@
-site_name: ""
+site_name: "NWSL Data"
 site_url: https://research.nwsldata.com
 site_description: Advanced data analysis and predictive modeling for the National Women's Soccer League
 site_author: NWSL Data
@@ -34,7 +34,7 @@ theme:
     - content.tabs.link
   icon:
     repo: fontawesome/brands/github
-  logo: NWSL-logo-web.png
+  logo: nwsl-logo-soccerball.png
   favicon: https://nwsldata.com/favicon.ico
 
 plugins:

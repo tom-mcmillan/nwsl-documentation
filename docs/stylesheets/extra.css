@@ -43,6 +43,18 @@
   color: var(--nwsl-dark);
 }
 
+/* Logo responsive behavior - hide on mobile/narrow screens */
+@media screen and (max-width: 76.1875em) {
+  .md-header__button + .md-header__topic .md-header__title--active .md-logo {
+    display: none;
+  }
+}
+
+/* Ensure site title remains visible on all screen sizes */
+.md-header__title {
+  opacity: 1 !important;
+}
+
 /* Heading typography hierarchy - matches OpenAI style exactly */
 .md-typeset h1,
 .md-typeset h2,
