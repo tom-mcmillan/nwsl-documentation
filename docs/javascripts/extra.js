@@ -27,7 +27,7 @@ function tryAddNavigation() {
         <a href="https://docs.nwsldata.com" style="margin-left: 1rem; margin-right: 1rem; color: #6b7280; text-decoration: none; font-size: 14px;">Docs</a>
         <a href="https://nwsl-database-proxy-78453984015.us-central1.run.app" target="_blank" style="margin-right: 1rem; color: #6b7280; text-decoration: none; font-size: 14px;">API</a>
         <a href="https://research.nwsldata.com" target="_blank" style="margin-right: 1rem; color: #6b7280; text-decoration: none; font-size: 14px;">Research</a>
-        <a href="https://discord.gg/kuX7rCBF" target="_blank" style="background: #374151; color: white; padding: 6px 12px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">💬 Discord</a>
+        <a href="https://discord.gg/kuX7rCBF" target="_blank" style="background: #374151; color: white; padding: 6px 12px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 6px;"><img src="Discord-Symbol-White.png" alt="Discord" style="width: 16px; height: 16px;">Discord</a>
     `;
     nav.style.cssText = 'display: flex; align-items: center; margin-left: auto;';
 
