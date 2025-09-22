@@ -11,15 +11,12 @@ function tryAddNavigation() {
         return true;
     }
 
-    // Find header - try multiple selectors
-    const header = document.querySelector('.md-header__inner') ||
-                  document.querySelector('.md-header') ||
-                  document.querySelector('header');
+    // Find search bar first
+    const searchForm = document.querySelector('.md-search');
+    console.log('Search form found:', searchForm);
 
-    console.log('Header found:', header);
-
-    if (!header) {
-        console.log('No header found yet');
+    if (!searchForm) {
+        console.log('No search form found yet');
         return false;
     }
 
@@ -27,17 +24,17 @@ function tryAddNavigation() {
     const nav = document.createElement('div');
     nav.className = 'nwsl-custom-nav';
     nav.innerHTML = `
-        <a href="https://docs.nwsldata.com" style="margin-right: 1rem; color: #6b7280; text-decoration: none; font-size: 14px;">Docs</a>
+        <a href="https://docs.nwsldata.com" style="margin-left: 1rem; margin-right: 1rem; color: #6b7280; text-decoration: none; font-size: 14px;">Docs</a>
         <a href="https://nwsl-database-proxy-78453984015.us-central1.run.app" target="_blank" style="margin-right: 1rem; color: #6b7280; text-decoration: none; font-size: 14px;">API</a>
         <a href="https://research.nwsldata.com" target="_blank" style="margin-right: 1rem; color: #6b7280; text-decoration: none; font-size: 14px;">Research</a>
         <a href="https://discord.gg/kuX7rCBF" target="_blank" style="background: #374151; color: white; padding: 6px 12px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">💬 Discord</a>
     `;
-    nav.style.cssText = 'position: absolute; right: 10px; top: 50%; transform: translateY(-50%); display: flex; align-items: center; z-index: 1000; background: none;';
+    nav.style.cssText = 'display: flex; align-items: center; margin-left: auto;';
 
-    header.style.position = 'relative'; // Ensure header is positioned
-    header.appendChild(nav);
+    // Insert after the search form
+    searchForm.parentNode.insertBefore(nav, searchForm.nextSibling);
 
-    console.log('Navigation added successfully!');
+    console.log('Navigation added after search form successfully!');
     return true;
 }
 
