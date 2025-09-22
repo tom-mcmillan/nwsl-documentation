@@ -3,8 +3,8 @@ site_url: https://research.nwsldata.com
 site_description: Advanced data analysis and predictive modeling for the National Women's Soccer League
 site_author: NWSL Data
 
-repo_url: https://github.com/tom-mcmillan/nwsl-documentation
-repo_name: nwsl-documentation
+# repo_url: https://github.com/tom-mcmillan/nwsl-documentation
+# repo_name: nwsl-documentation
 
 theme:
   name: material
